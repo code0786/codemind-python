@@ -1,0 +1,11 @@
+n=int(input())
+firstnumber=0
+secondnumber=1
+print(firstnumber,end=' ')
+print(secondnumber,end=' ')
+while n!=2:
+    nextnumber=firstnumber+secondnumber
+    print(nextnumber,end=' ')
+    firstnumber=secondnumber
+    secondnumber=nextnumber
+    n-=1
