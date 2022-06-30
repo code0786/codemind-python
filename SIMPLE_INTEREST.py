@@ -1,3 +1,3 @@
-P,T,R=map(int,input().split())
-si= int(P*T*R)//100
-print (si)
+p, t, r = map(int , input().split())
+si = p*t*r
+print(si//100)
