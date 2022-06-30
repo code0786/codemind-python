@@ -5,8 +5,8 @@ def prime(a):
         if a%i==0:
             return False
     return True
-a=int(input())
-b=int(input())
+a = int(input())
+b = int(input())
 p=0
 while a<=b:
     if prime(a):
