@@ -1,7 +1,7 @@
-number=int(input())
-sum=0
-while 1:
-    while number !=0:
+number = int(input())
+sum = 0
+while True:
+    while number!=0:
         sum+=(number%10)**2
         number//=10
     if sum==1 or sum==7:
