@@ -1,5 +1,5 @@
 def prime(n):
-    c=0
+    c = 0
     for i in range(2,n//2):
         if n%i==0:
             c+=1
@@ -8,12 +8,12 @@ def prime(n):
     else:
         return False
 def rev(n):
-    r=0
+    r = 0
     while n:
         r=r*10+n%10
         n//=10
     return r
-n=int(input())
+n = int(input())
 if prime(n) and prime(rev(n)):
     print("circular prime")
 elif prime(n) or prime(rev(n)):
