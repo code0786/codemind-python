@@ -1,7 +1,7 @@
-a=int(input())
-b=int(input())
-x=1
-sum=0
+a = int(input())
+b = int(input())
+x = 1
+sum = 0
 while x<=a//2:
     if a%x==0:
         sum+=x
