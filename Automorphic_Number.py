@@ -1,4 +1,4 @@
-n=int(input())
+n = int(input())
 sq=n*n
 number=n
 d=0
